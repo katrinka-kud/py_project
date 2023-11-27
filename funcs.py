@@ -7,7 +7,8 @@ def add_numbers() -> int:
     Функция, которая складывает два числа
     :return:
     """
-    return sum(number_1, number_2)
+    sum_numbers = number_1 + number_2
+    return sum_numbers
 
 
 def number_difference() -> int:
